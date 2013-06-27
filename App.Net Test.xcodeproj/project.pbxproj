@@ -17,13 +17,16 @@
 		C31BF4E1177B89B600D32E75 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C31BF4E0177B89B600D32E75 /* Default@2x.png */; };
 		C31BF4E3177B89B600D32E75 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C31BF4E2177B89B600D32E75 /* Default-568h@2x.png */; };
 		C31BF4E6177B89B600D32E75 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31BF4E4177B89B600D32E75 /* MainStoryboard.storyboard */; };
-		C31BF4E9177B89B600D32E75 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31BF4E8177B89B600D32E75 /* MasterViewController.m */; };
-		C31BF4EC177B89B600D32E75 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31BF4EB177B89B600D32E75 /* DetailViewController.m */; };
+		C31BF4E9177B89B600D32E75 /* PublicPostsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31BF4E8177B89B600D32E75 /* PublicPostsTableViewController.m */; };
 		C31BF4F4177B89B600D32E75 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31BF4F3177B89B600D32E75 /* SenTestingKit.framework */; };
 		C31BF4F5177B89B600D32E75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31BF4CC177B89B600D32E75 /* UIKit.framework */; };
 		C31BF4F6177B89B600D32E75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31BF4CE177B89B600D32E75 /* Foundation.framework */; };
 		C31BF4FE177B89B600D32E75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C31BF4FC177B89B600D32E75 /* InfoPlist.strings */; };
 		C31BF501177B89B600D32E75 /* App_Net_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31BF500177B89B600D32E75 /* App_Net_TestTests.m */; };
+		C31BF50D177B8CCB00D32E75 /* AppDotNetSocialNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = C31BF50C177B8CCB00D32E75 /* AppDotNetSocialNetwork.m */; };
+		C31BF510177B8CE000D32E75 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = C31BF50F177B8CE000D32E75 /* Post.m */; };
+		C31BF51A177B9B1800D32E75 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31BF519177B9B1800D32E75 /* QuartzCore.framework */; };
+		C31BF51E177BFB4600D32E75 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C31BF51D177BFB4600D32E75 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,16 +54,21 @@
 		C31BF4E0177B89B600D32E75 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C31BF4E2177B89B600D32E75 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C31BF4E5177B89B600D32E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C31BF4E7177B89B600D32E75 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		C31BF4E8177B89B600D32E75 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		C31BF4EA177B89B600D32E75 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		C31BF4EB177B89B600D32E75 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C31BF4E7177B89B600D32E75 /* PublicPostsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicPostsTableViewController.h; sourceTree = "<group>"; };
+		C31BF4E8177B89B600D32E75 /* PublicPostsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicPostsTableViewController.m; sourceTree = "<group>"; };
 		C31BF4F2177B89B600D32E75 /* App.Net TestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App.Net TestTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31BF4F3177B89B600D32E75 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C31BF4FB177B89B600D32E75 /* App.Net TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App.Net TestTests-Info.plist"; sourceTree = "<group>"; };
 		C31BF4FD177B89B600D32E75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C31BF4FF177B89B600D32E75 /* App_Net_TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = App_Net_TestTests.h; sourceTree = "<group>"; };
 		C31BF500177B89B600D32E75 /* App_Net_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = App_Net_TestTests.m; sourceTree = "<group>"; };
+		C31BF50A177B8A6000D32E75 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		C31BF50B177B8CCB00D32E75 /* AppDotNetSocialNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDotNetSocialNetwork.h; sourceTree = "<group>"; };
+		C31BF50C177B8CCB00D32E75 /* AppDotNetSocialNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDotNetSocialNetwork.m; sourceTree = "<group>"; };
+		C31BF50E177B8CE000D32E75 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		C31BF50F177B8CE000D32E75 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		C31BF519177B9B1800D32E75 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C31BF51D177BFB4600D32E75 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31BF51A177B9B1800D32E75 /* QuartzCore.framework in Frameworks */,
 				C31BF4CD177B89B600D32E75 /* UIKit.framework in Frameworks */,
 				C31BF4CF177B89B600D32E75 /* Foundation.framework in Frameworks */,
 				C31BF4D1177B89B600D32E75 /* CoreGraphics.framework in Frameworks */,
@@ -109,10 +118,11 @@
 		C31BF4CB177B89B600D32E75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C31BF4CC177B89B600D32E75 /* UIKit.framework */,
-				C31BF4CE177B89B600D32E75 /* Foundation.framework */,
 				C31BF4D0177B89B600D32E75 /* CoreGraphics.framework */,
+				C31BF4CE177B89B600D32E75 /* Foundation.framework */,
+				C31BF519177B9B1800D32E75 /* QuartzCore.framework */,
 				C31BF4F3177B89B600D32E75 /* SenTestingKit.framework */,
+				C31BF4CC177B89B600D32E75 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,13 +130,11 @@
 		C31BF4D2177B89B600D32E75 /* App.Net Test */ = {
 			isa = PBXGroup;
 			children = (
-				C31BF4DB177B89B600D32E75 /* AppDelegate.h */,
-				C31BF4DC177B89B600D32E75 /* AppDelegate.m */,
+				C31BF50A177B8A6000D32E75 /* ReadMe.txt */,
 				C31BF4E4177B89B600D32E75 /* MainStoryboard.storyboard */,
-				C31BF4E7177B89B600D32E75 /* MasterViewController.h */,
-				C31BF4E8177B89B600D32E75 /* MasterViewController.m */,
-				C31BF4EA177B89B600D32E75 /* DetailViewController.h */,
-				C31BF4EB177B89B600D32E75 /* DetailViewController.m */,
+				C31BF514177B8CFA00D32E75 /* Model Classes */,
+				C31BF515177B8D3B00D32E75 /* View Controller Classes */,
+				C31BF516177B8D5200D32E75 /* App Delegate */,
 				C31BF4D3177B89B600D32E75 /* Supporting Files */,
 			);
 			path = "App.Net Test";
@@ -142,6 +150,7 @@
 				C31BF4DE177B89B600D32E75 /* Default.png */,
 				C31BF4E0177B89B600D32E75 /* Default@2x.png */,
 				C31BF4E2177B89B600D32E75 /* Default-568h@2x.png */,
+				C31BF51D177BFB4600D32E75 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,6 +172,35 @@
 				C31BF4FC177B89B600D32E75 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C31BF514177B8CFA00D32E75 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C31BF50B177B8CCB00D32E75 /* AppDotNetSocialNetwork.h */,
+				C31BF50C177B8CCB00D32E75 /* AppDotNetSocialNetwork.m */,
+				C31BF50E177B8CE000D32E75 /* Post.h */,
+				C31BF50F177B8CE000D32E75 /* Post.m */,
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+		C31BF515177B8D3B00D32E75 /* View Controller Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C31BF4E7177B89B600D32E75 /* PublicPostsTableViewController.h */,
+				C31BF4E8177B89B600D32E75 /* PublicPostsTableViewController.m */,
+			);
+			name = "View Controller Classes";
+			sourceTree = "<group>";
+		};
+		C31BF516177B8D5200D32E75 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C31BF4DB177B89B600D32E75 /* AppDelegate.h */,
+				C31BF4DC177B89B600D32E75 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +279,7 @@
 				C31BF4E1177B89B600D32E75 /* Default@2x.png in Resources */,
 				C31BF4E3177B89B600D32E75 /* Default-568h@2x.png in Resources */,
 				C31BF4E6177B89B600D32E75 /* MainStoryboard.storyboard in Resources */,
+				C31BF51E177BFB4600D32E75 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +316,9 @@
 			files = (
 				C31BF4D9177B89B600D32E75 /* main.m in Sources */,
 				C31BF4DD177B89B600D32E75 /* AppDelegate.m in Sources */,
-				C31BF4E9177B89B600D32E75 /* MasterViewController.m in Sources */,
-				C31BF4EC177B89B600D32E75 /* DetailViewController.m in Sources */,
+				C31BF4E9177B89B600D32E75 /* PublicPostsTableViewController.m in Sources */,
+				C31BF50D177B8CCB00D32E75 /* AppDotNetSocialNetwork.m in Sources */,
+				C31BF510177B8CE000D32E75 /* Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +393,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -377,7 +417,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -398,10 +438,12 @@
 		C31BF506177B89B600D32E75 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Gayle Dunham";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "App.Net Test/App.Net Test-Prefix.pch";
 				INFOPLIST_FILE = "App.Net Test/App.Net Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C7F87785-5268-4253-9491-12710A6BA862";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -459,6 +501,7 @@
 				C31BF506177B89B600D32E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C31BF507177B89B600D32E75 /* Build configuration list for PBXNativeTarget "App.Net TestTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +510,7 @@
 				C31BF509177B89B600D32E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

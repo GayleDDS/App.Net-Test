@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  App.Net Test
+
+  Created by Gayle Dunham on 6/27/13.
+  Copyright (c) 2013 Gayle Dunham. All rights reserved.
+*/
+
+"Error_Alert_Title" = "Error fetching data";  // Title for the data parser error alert view
+
